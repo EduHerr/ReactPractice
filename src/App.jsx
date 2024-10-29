@@ -12,7 +12,6 @@ function App() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl text-center mb-6 font-bold">Formulario y Tabla</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
         <div className="p-4">
           <Form agregarDatos={agregarDatos}/>
